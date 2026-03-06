@@ -1,6 +1,0 @@
-com/aifitness/exerciseservice/config/DataSeeder.class
-com/aifitness/exerciseservice/ExerciseServiceApplication.class
-com/aifitness/exerciseservice/service/ExerciseService.class
-com/aifitness/exerciseservice/model/Exercise.class
-com/aifitness/exerciseservice/repository/ExerciseRepository.class
-com/aifitness/exerciseservice/controller/ExerciseController.class
