@@ -1,0 +1,13 @@
+com/aifitness/socialservice/repository/ChatRepository.class
+com/aifitness/socialservice/repository/LeaderboardRepository.class
+com/aifitness/socialservice/model/LeaderboardRecord.class
+com/aifitness/socialservice/repository/FollowerRepository.class
+com/aifitness/socialservice/controller/LeaderboardController.class
+com/aifitness/socialservice/model/Post.class
+com/aifitness/socialservice/model/Follower.class
+com/aifitness/socialservice/repository/CommentRepository.class
+com/aifitness/socialservice/repository/PostRepository.class
+com/aifitness/socialservice/SocialServiceApplication.class
+com/aifitness/socialservice/controller/SocialController.class
+com/aifitness/socialservice/model/Comment.class
+com/aifitness/socialservice/model/ChatMessage.class

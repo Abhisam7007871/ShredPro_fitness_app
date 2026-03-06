@@ -1,0 +1,41 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.2)
+
+2026-03-07T01:53:07.171+05:30  INFO 17367 --- [diet-service] [           main] c.a.dietservice.DietServiceApplication   : Starting DietServiceApplication v0.0.1-SNAPSHOT using Java 25.0.1 with PID 17367 (/Users/sharabf/My Project/AI Fitness APP/backend/diet-service/target/diet-service-0.0.1-SNAPSHOT.jar started by sharabf in /Users/sharabf/My Project/AI Fitness APP/backend/diet-service)
+2026-03-07T01:53:07.172+05:30  INFO 17367 --- [diet-service] [           main] c.a.dietservice.DietServiceApplication   : No active profile set, falling back to 1 default profile: "default"
+2026-03-07T01:53:07.463+05:30  INFO 17367 --- [diet-service] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-07T01:53:07.485+05:30  INFO 17367 --- [diet-service] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 18 ms. Found 2 JPA repository interfaces.
+2026-03-07T01:53:07.563+05:30  INFO 17367 --- [diet-service] [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=14546b50-b0bf-3424-9809-1470d018d17b
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by org.apache.tomcat.jni.Library in an unnamed module (jar:nested:/Users/sharabf/My%20Project/AI%20Fitness%20APP/backend/diet-service/target/diet-service-0.0.1-SNAPSHOT.jar/!BOOT-INF/lib/tomcat-embed-core-10.1.18.jar!/)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+2026-03-07T01:53:07.719+05:30  INFO 17367 --- [diet-service] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8084 (http)
+2026-03-07T01:53:07.724+05:30  INFO 17367 --- [diet-service] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-07T01:53:07.724+05:30  INFO 17367 --- [diet-service] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.18]
+2026-03-07T01:53:07.736+05:30  INFO 17367 --- [diet-service] [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-03-07T01:53:07.737+05:30  INFO 17367 --- [diet-service] [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 535 ms
+2026-03-07T01:53:07.797+05:30  INFO 17367 --- [diet-service] [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-03-07T01:53:07.826+05:30  INFO 17367 --- [diet-service] [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.1.Final
+2026-03-07T01:53:07.840+05:30  INFO 17367 --- [diet-service] [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-03-07T01:53:07.933+05:30  INFO 17367 --- [diet-service] [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-07T01:53:07.943+05:30  INFO 17367 --- [diet-service] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-03-07T01:53:07.996+05:30  INFO 17367 --- [diet-service] [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@18c880ea
+2026-03-07T01:53:07.996+05:30  INFO 17367 --- [diet-service] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-03-07T01:53:08.009+05:30  WARN 17367 --- [diet-service] [           main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-07T01:53:08.358+05:30  INFO 17367 --- [diet-service] [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-07T01:53:08.432+05:30  INFO 17367 --- [diet-service] [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-07T01:53:08.593+05:30  WARN 17367 --- [diet-service] [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-07T01:53:08.741+05:30  INFO 17367 --- [diet-service] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8084 (http) with context path ''
+2026-03-07T01:53:08.748+05:30  INFO 17367 --- [diet-service] [           main] c.a.dietservice.DietServiceApplication   : Started DietServiceApplication in 1.77 seconds (process running for 1.993)
+2026-03-07T01:54:03.119+05:30  INFO 17367 --- [diet-service] [nio-8084-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-07T01:54:03.119+05:30  INFO 17367 --- [diet-service] [nio-8084-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-03-07T01:54:03.122+05:30  INFO 17367 --- [diet-service] [nio-8084-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2026-03-07T01:54:03.137+05:30  WARN 17367 --- [diet-service] [nio-8084-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.util.UUID'; Invalid UUID string: test]
